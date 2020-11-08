@@ -1,9 +1,8 @@
 ---
 layout: post
 author: angtylook
+title: Jenkins在Windows运行CocosCreator卡死
 ---
-
-=== Jenkins在Windows运行CocosCreator卡死
 
 项目要搭建Jenkins自动构建，Jenkins Master运行在一台
 Linux机器上，用于构建服务端。Jenkins Slave运行在一台
