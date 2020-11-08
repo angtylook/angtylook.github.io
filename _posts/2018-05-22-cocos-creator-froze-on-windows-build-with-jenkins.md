@@ -1,3 +1,8 @@
+---
+layout: post
+author: angtylook
+---
+
 === Jenkins在Windows运行CocosCreator卡死
 
 项目要搭建Jenkins自动构建，Jenkins Master运行在一台
