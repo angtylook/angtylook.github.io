@@ -2,7 +2,7 @@ title: 工程师之路
 author: angtylook
 email: angtylook@126.com
 description: >
-  一些记录，一些想法。
+  以软件工程师的身份，记录关于计算机、软件相关的想法和开发过程中的经历。
 
 plugins:
   - jekyll-seo-tag
@@ -17,7 +17,7 @@ minima_reboot:
 header_pages:
 - about.md
 - posts.md
-#- github.md
+- github.md
 
 footer_icons:
 - username: angtylook

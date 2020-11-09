@@ -4,4 +4,4 @@ title: About
 permalink: /about/
 ---
 
-email: angtylook#126.com
+以软件工程师的身份，记录关于计算机、软件相关的想法和开发过程中的经历。
