@@ -32,3 +32,5 @@ exclude:
   - Gemfile
   - Gemfile.lock
   - minima-reboot.gemspec
+
+google_analytics: true
