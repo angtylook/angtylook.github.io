@@ -1,12 +1,23 @@
+---
+layout: compress
+---
 <!DOCTYPE html>
-<html>
-    <head>
-        <meta charset="utf-8">
-        <title>{{ page.title }}</title>
-        <link rel="stylesheet" href="/assets/css/styles.css">
-    </head>
-    <body>
-        {% include navigation.html %}
+<html lang="{{ page.lang | default: site.lang | default: "en" }}">
+
+  {% include head.html %}
+
+  <body>
+
+    {% include header.html %}
+
+    <main aria-label="Content">
+      <div id="content-container" class="container">
         {{ content }}
-    </body>
+      </div>
+    </main>
+
+    {% include footer.html %}
+
+  </body>
+
 </html>
