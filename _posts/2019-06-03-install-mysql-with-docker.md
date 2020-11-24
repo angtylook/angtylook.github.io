@@ -4,8 +4,6 @@ author: angtylook
 title: 使用Docker安装MySQL
 ---
 
-# 使用Docker安装MySQL
-
 在后台开发中，一般使用MySQL来存储用户的数据。比如开发小游戏服务端，生产环境跑在机房的Linux环境，连接机房的云数据库。平时在Windows下开发，需要使用本地的数据库。为了本机Windows系统的稳定，不安装太多的软件，决定使用Docker在安装一个MySQL用于开发。
 
 我们开发的小游戏后端，用户的数据存储在MySQL里面，上线后跑在机房的Linux机器上，连接云数据库。平时开发使用Windows机器，为了保证本地Windows开发机的稳定，使用Docker安装一个MySQL用于本地的开发调试。

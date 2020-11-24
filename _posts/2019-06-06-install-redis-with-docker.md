@@ -4,8 +4,6 @@ author: angtylook
 title: 使用Docker安装Redis
 ---
 
-# 使用Docker安装Redis
-
 比起在Docker中安装MySQL，安装Redis方便很多，因为使用Redis一般是用为缓存，就减少了使用Volume保存数据的麻烦。
 
 ## 安装和启动
