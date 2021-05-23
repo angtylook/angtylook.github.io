@@ -1,7 +1,7 @@
 ---
 layout: post
 author: angtylook
-title: FFMpeg glue in chromium
+title: Chromium中的FFMpeg glue
 ---
 
 使用ffmpeg打开音视频文件，解封状，即做Demuxer时，需要用到函数`avformat_open_input`，该函数有两种使用方式。

@@ -1,3 +1,10 @@
+---
+layout: post
+author: angtylook
+title: MySQL增加、删除、修改列
+---
+
+
 日常开发中，总是免不了对表结构的增改删，这里记录针对表列的一些常用MySQL操作的语句。
 
 ## 表列的增删改
