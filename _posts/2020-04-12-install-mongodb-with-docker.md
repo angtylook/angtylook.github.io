@@ -4,7 +4,7 @@ author: angtylook
 title: 使用Docker安装Mongo
 ---
 
-跟安装MySQL的形式差不多，先创建数据存储Volume，之后直接拉取运行，
+跟安装MySQL的形式差不多，先创建数据存储Volume，之后使用`docker pull mongo`直接拉取镜像再运行。
 指定初始化的帐号密码，存储路径，对外端口等
 ```shell
 docker volume create mongo_data
